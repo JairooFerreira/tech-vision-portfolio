@@ -823,3 +823,62 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
+/* Process Section Styling */
+.process-section {
+  padding: 8rem 0;
+  background: rgba(15, 23, 30, 0.4);
+}
+
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 3rem;
+  margin-top: 4rem;
+}
+
+.process-item {
+  position: relative;
+  transition: var(--transition);
+}
+
+.process-icon {
+  width: 80px;
+  height: 80px;
+  background: var(--glass-bg);
+  border: 2px solid var(--primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 2rem;
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--primary);
+  box-shadow: 0 0 20px rgba(0, 255, 136, 0.2);
+  transition: var(--transition);
+}
+
+.process-item:hover .process-icon {
+  transform: scale(1.1) translateY(-10px);
+  background: var(--primary);
+  color: #000;
+  box-shadow: 0 0 40px rgba(0, 255, 136, 0.5);
+}
+
+.process-item h3 {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+}
+
+.process-item p {
+  color: var(--text-dim);
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .process-grid {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+}
