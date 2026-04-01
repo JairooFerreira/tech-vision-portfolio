@@ -22,6 +22,11 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 body {
   background-color: var(--bg-dark);
   color: var(--text-main);
@@ -196,8 +201,33 @@ header nav {
   letter-spacing: 2px;
 }
 
+.nav-links {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  list-style: none !important;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none !important;
+  color: var(--text-main) !important;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: var(--transition);
+}
+
 .nav-links a:hover {
-  color: var(--primary);
+  color: var(--primary) !important;
+}
+
+.nav-links .btn {
+  background: var(--accent-gradient);
+  color: #000 !important;
+  padding: 0.7rem 1.6rem;
+  font-weight: 700;
+  border-radius: 50px;
 }
 
 /* Mobile Menu Logic (Checkbox Hack) */
