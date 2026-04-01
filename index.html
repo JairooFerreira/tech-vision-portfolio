@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Vision | Jairo Ferreira - Portfólio Profissional</title>
+    <meta name="description" content="Tech Vision por Jairo Ferreira. Especialista em TI, Desenvolvimento de Web Sites, Aplicativos, Landing Pages e Suporte Técnico em Aparecida-SP.">
+    
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="glass" id="navbar">
+        <nav class="container">
+            <div class="logo">
+                <img src="assets/logo.png" alt="Tech Vision Logo" class="nav-logo">
+                <span class="logo-text gradient-text">Tech Vision</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#portfolio">Projetos</a></li>
+                <li><a href="#contact" class="btn btn-primary">Contato</a></li>
+            </ul>
+            <div class="mobile-menu-icon" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <span class="badge">Inovação & Tecnologia</span>
+                    <h1>Transformando Visões em <span class="gradient-text">Realidade Digital.</span></h1>
+                    <div class="hero-btns">
+                        <a href="https://wa.me/5512997411704?text=Olá%20Jairo,%20vim%20do%20site%20da%20TechVision,%20gostaria%20de%20fazer%20um%20orçamento%20😊" target="_blank" class="btn btn-primary">Fale Conosco Agora <i class="fab fa-whatsapp"></i></a>
+                        <a href="#portfolio" class="btn btn-outline">Ver Portfólio</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section (Presentation) -->
+        <section id="about">
+            <div class="container glass about-container">
+                <div class="about-image-wrapper">
+                    <img src="assets/jairo.png" alt="Jairo Ferreira" class="profile-img">
+                </div>
+                <div class="about-text">
+                    <span class="badge">O Fundador</span>
+                    <h2>Muito prazer, sou o <span class="gradient-text">Jairo Ferreira.</span></h2>
+                    <p class="about-lead">Fundador da <span class="text-tech-vision">Tech Vision</span>, sou o desenvolvedor e idealizador por trás das plataformas <span class="text-barber-max">BarberMAX</span> e <span class="text-simple-stock">SimpleStock</span>. Meu compromisso é automatizar processos e maximizar a lucratividade de negócios através de tecnologia inteligente e infraestrutura de alta performance.</p>
+                    <p class="about-lead">Unindo uma sólida formação técnica com uma visão prática de mercado, entrego ecossistemas SaaS escaláveis e consultoria em TI que garante o controle absoluto da sua operação. Se você busca uma tecnologia robusta que realmente resolve seus problemas, você está no lugar certo.</p>
+                    <!-- Acadêmico / Formações -->
+                    <div class="education-block">
+                        <h3><i class="fas fa-graduation-cap"></i> Formação & Certificações</h3>
+                        <ul class="education-list">
+                            <li>
+                                <img src="assets/senai-logo.png" alt="SENAI" class="edu-logo">
+                                <span class="edu-year">2020</span>
+                                <div class="edu-info">
+                                    <strong>Manutenção de Computadores</strong>
+                                    <p>SENAI</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="assets/cisco-logo.png" alt="CISCO" class="edu-logo">
+                                <span class="edu-year">2024</span>
+                                <div class="edu-info">
+                                    <strong>Redes e Computadores</strong>
+                                    <p>CISCO Networking Academy</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="assets/fatec-logo.png" alt="FATEC" class="edu-logo">
+                                <span class="edu-year">2025</span>
+                                <div class="edu-info">
+                                    <strong>Gestão da Tecnologia da Informação</strong>
+                                    <p>FATEC Guaratinguetá</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Experiência Profissional -->
+                    <div class="education-block">
+                        <h3><i class="fas fa-briefcase"></i> Experiência Profissional</h3>
+                        <ul class="education-list">
+                            <li>
+                                <img src="assets/bontur-logo.png" alt="Bontur" class="edu-logo">
+                                <span class="edu-year">2024-Atual</span>
+                                <div class="edu-info">
+                                    <strong>T.I</strong>
+                                    <p>Aparecida Boninhos Aéreos</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h3>TI & Dev</h3>
+                            <p>Especialista</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>Aparecida-SP</h3>
+                            <p>Base de Operações</p>
+                        </div>
+                    </div>
+
+                    <!-- CTA Buttons -->
+                    <div class="about-btns">
+                        <a href="#portfolio" class="btn btn-primary">Conheça meus SaaS <i class="fas fa-layer-group"></i></a>
+                        <a href="#services" class="btn btn-outline">Nossa Experiência <i class="fas fa-graduation-cap"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services">
+            <div class="container text-center">
+                <h2 class="section-title">Nossa <span class="gradient-text">Experiência</span> & Serviços</h2>
+                <p>Soluções completas para sua presença digital e infraestrutura.</p>
+                
+                <div class="services-grid">
+                    <!-- SaaS Development -->
+                    <div class="service-card glass">
+                        <i class="fas fa-layer-group"></i>
+                        <h3>Desenvolvimento SaaS</h3>
+                        <p>Criação de plataformas SaaS completas com arquitetura moderna e escalável, gestão avançada de banco de dados, sistemas de pagamento por assinatura e infraestrutura em nuvem de alta performance.</p>
+                    </div>
+                    <div class="service-card glass">
+                        <i class="fas fa-rocket"></i>
+                        <h3>Sites & Landing Pages</h3>
+                        <p>Criação de sites e páginas de alta conversão que alavancam as vendas do seu negócio e atraem novos clientes todos os dias.</p>
+                    </div>
+                    <!-- IT Support -->
+                    <div class="service-card glass">
+                        <i class="fas fa-network-wired"></i>
+                        <h3>Infraestrutura de Redes</h3>
+                        <p>Implementação de infraestrutura crítica, redes CISCO e segurança para operações estáveis e seguras.</p>
+                    </div>
+                    <div class="service-card glass">
+                        <i class="fas fa-desktop"></i>
+                        <h3>Formatação & Softwares</h3>
+                        <p>Formatação completa de Windows 10 e 11, com instalação de Pacote Office e softwares essenciais para seu trabalho.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio">
+            <div class="container text-center">
+                <h2 class="section-title">Nossos <span class="gradient-text">Produtos SaaS</span></h2>
+                <p>Confira algumas das soluções que desenvolvemos internamente.</p>
+                
+                <div class="projects-grid">
+                    <!-- SaaS 1: BarberMAX -->
+                    <a href="https://barbermax-seven.vercel.app/" target="_blank" class="project-card-link">
+                        <div class="project-card glass">
+                            <div class="project-img">
+                                <img src="assets/barbermax.png" alt="BarberMAX - Sistema para Barbearias">
+                            </div>
+                            <div class="project-info">
+                                <div class="project-tag">SaaS / Cloud / Multitenant</div>
+                                <h3>BarberMAX</h3>
+                                <p><strong>RECUPERE SEU TEMPO. LUCRE MAIS.</strong></p>
+                                <p>Não é apenas agendamento. É liberdade. Elimine o caos do WhatsApp e transforme sua barbearia em uma empresa elite e escalável.</p>
+                                <span class="accent-link">Acessar Projeto <i class="fas fa-external-link-alt"></i></span>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- SaaS 2: SimpleStock -->
+                    <a href="https://simplostock-techvision.vercel.app/painel.html" target="_blank" class="project-card-link">
+                        <div class="project-card glass">
+                            <div class="project-img">
+                                <img src="assets/simplostock.png" alt="SimpleStock - Gestão de Estoque">
+                            </div>
+                            <div class="project-info">
+                                <div class="project-tag">SaaS / Dashboard / B2B</div>
+                                <h3>SimpleStock</h3>
+                                <p><strong>Visão Executiva Global</strong></p>
+                                <p>Sistema de gestão com métricas consolidadas, controle de faturamento, inventário e ranking de crescimento para múltiplas lojas.</p>
+                                <span class="accent-link">Acessar Projeto <i class="fas fa-external-link-alt"></i></span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container glass contact-container">
+                <div class="contact-header">
+                    <h2>Vamos <span class="gradient-text">Conversar?</span></h2>
+                    <p>Pronto para levar seu negócio para o próximo nível? Entre em contato agora.</p>
+                </div>
+                <div class="contact-content">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Seu Nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Seu E-mail" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Como podemos ajudar?" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-full">Enviar Mensagem</button>
+                    </form>
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <p>Fale via WhatsApp</p>
+                            <a href="https://wa.me/5512997411704?text=Olá%20Jairo,%20vim%20do%20site%20da%20TechVision,%20gostaria%20de%20fazer%20um%20orçamento%20😊" target="_blank" class="accent-link">Entrar em contato</a>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-location-dot"></i>
+                            <p>Aparecida, SP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container">
+        <div class="footer-content">
+            <p>&copy; 2025 <span class="gradient-text">Tech Vision</span> - Jairo Ferreira. Todos os direitos reservados.</p>
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/jairo-ferreira-bb6282145?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/techvisiionn?igsh=eDh3MXdhbHZpanhm&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    
+    <!-- Floating WA Button -->
+    <a href="https://wa.me/5512997411704?text=Olá%20Jairo,%20vim%20do%20site%20da%20TechVision,%20gostaria%20de%20fazer%20um%20orçamento%20😊" class="wa-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+</body>
+</html>
